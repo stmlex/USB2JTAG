@@ -1,1 +1,3 @@
-Record=TopLevelDocument|FileName=USB2JTAG-Interfaces.SchDoc
+Record=TopLevelDocument|FileName=USB2JTAG-Interfaces.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=USB2JTAG-Interfaces.SchDoc|FileName=USB2JTAG-MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=USB2JTAG-Interfaces.SchDoc|FileName=USB2JTAG-Power.SchDoc|SheetNumber=3
