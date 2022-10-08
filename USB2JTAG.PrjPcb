@@ -283,6 +283,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
+[Document15]
+DocumentPath=CAP1206.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document16]
+DocumentPath=RES0805.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document17]
+DocumentPath=RES1206.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
 Name=CompanyTitle
 Value=KS2Corp
@@ -349,7 +400,7 @@ StartProcName=GenerateOutputFiles.pas>GenerateOutputFiles
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -455,7 +506,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -533,7 +584,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -555,7 +606,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -627,7 +678,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -676,7 +727,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -784,7 +835,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -828,7 +879,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -889,7 +940,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Xerox B215 Multifunction Printer (перенаправлено 1)
+TargetPrinter=Xerox B215 Multifunction Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1262,8 +1313,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=USB2JTAG.SchLib
-ComponentDesignItemID0=CAP0402
-ComponentSymbolReference0=CAP0402
+ComponentDesignItemID0=RES0603
+ComponentSymbolReference0=RES0603
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1290,19 +1341,19 @@ ParameterUpdate3=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-GRM155-0_05-IPC_A
+ModelName0=FP-ERA3A-IPC_A
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=FP-GRM155-0_05-IPC_B
+ModelName1=FP-ERA3A-IPC_B
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=FP-GRM155-0_05-IPC_B-NOSILK
+ModelName2=FP-ERA3A-IPC_C
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=FP-GRM155-0_05-IPC_C
+ModelName3=FP-ERA3A-IPC_C-NOSILK
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=FP-GRM155-0_05-MFG
+ModelName4=FP-ERA3A-MFG
 ModelUpdate4=1
 
 [DatabaseUpdateOptions]
