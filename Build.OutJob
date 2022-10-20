@@ -17,8 +17,8 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Build.OutJob
 Description=
-TargetOutputMedium=BOM
-VariantName=[No Variations]
+TargetOutputMedium=Manufacturing
+VariantName=Full
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=SEC842519300AED
@@ -73,10 +73,10 @@ OutputName2=Bill of Materials
 OutputCategory2=Report
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
-OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
 OutputEnabled2_OutputMedium6=0
@@ -274,7 +274,7 @@ OutputName11=Copy Files
 OutputCategory11=PostProcess
 OutputDocumentPath11=
 OutputVariantName11=
-OutputEnabled11=0
+OutputEnabled11=1
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=0
@@ -289,6 +289,68 @@ OutputEnabled11_OutputMedium11=1
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Count=3|File0=[Release Managed]\1 - PCB\*.*|File1=[Release Managed]\2 - BOM\*.*|File2=[Release Managed]\3 - Assembly\*.*|KeepStructure0=True|KeepStructure1=True|KeepStructure2=True|PreserveFolderStructure0=True|PreserveFolderStructure1=True|PreserveFolderStructure2=True|Record=NonNativeFiles|DocumentPath=[Project]
+OutputType12=BOM_PartType
+OutputName12=JLCPCB
+OutputCategory12=Report
+OutputDocumentPath12=
+OutputVariantName12=
+OutputEnabled12=0
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=0
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
+OutputEnabled12_OutputMedium6=0
+OutputEnabled12_OutputMedium7=0
+OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
+OutputEnabled12_OutputMedium10=0
+OutputEnabled12_OutputMedium11=0
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration12_Name1=ColumnNameFormat
+Configuration12_Item1=CaptionAsName
+Configuration12_Name2=General
+Configuration12_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=702|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration12_Name3=GroupOrder
+Configuration12_Item3=Comment=True|Manufacturer Part Number=True|Pre Order=True
+Configuration12_Name4=SortOrder
+Configuration12_Item4=Designator=Up
+Configuration12_Name5=VisibleOrder
+Configuration12_Item5=Comment=100|Designator=120|Case/Package=100|Supplier Part Number 1=100
+Configuration12_Name6=VisibleOrder_Flat
+Configuration12_Item6=Comment=100|Designator=120|Case/Package=100|Supplier Part Number 1=100
+OutputType13=BOM_PartType
+OutputName13=LCSC
+OutputCategory13=Report
+OutputDocumentPath13=
+OutputVariantName13=
+OutputEnabled13=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=1
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=0
+OutputEnabled13_OutputMedium8=0
+OutputEnabled13_OutputMedium9=0
+OutputEnabled13_OutputMedium10=0
+OutputEnabled13_OutputMedium11=0
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration13_Name1=ColumnNameFormat
+Configuration13_Item1=CaptionAsName
+Configuration13_Name2=General
+Configuration13_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1200|FormHeight=702|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration13_Name3=GroupOrder
+Configuration13_Item3=Comment=True|Manufacturer Part Number=True|Pre Order=True
+Configuration13_Name4=SortOrder
+Configuration13_Item4=Designator=Up
+Configuration13_Name5=VisibleOrder
+Configuration13_Item5=Designator=120|Comment=100|Case/Package=100|Supplier Part Number 1=100|Manufacturer=100|Manufacturer Part Number=100|Quantity=100
+Configuration13_Name6=VisibleOrder_Flat
+Configuration13_Item6=Designator=120|Comment=100|Case/Package=100|Supplier Part Number 1=100|Manufacturer=100|Manufacturer Part Number=100|Quantity=100
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\5 - Docs&Instructions\USB2JTAG-001-3D.PDF
@@ -318,7 +380,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\2 - BOM\
+OutputFilePath3=C:\Users\Alex_M\Develop\USB2JTAG\Output\2 - BOM\
 ReleaseManaged3=1
 OutputBasePath3=Output
 OutputPathMedia3=2 - BOM
@@ -422,7 +484,7 @@ ShowComponentParameters6=1
 GlobalBookmarks6=0
 PDFACompliance6=Disabled
 PDFVersion6=Default
-OutputFilePath7=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\6 - CAD_files\
+OutputFilePath7=C:\Users\Alex_M\Develop\USB2JTAG\Output\6 - CAD_files\
 ReleaseManaged7=1
 OutputBasePath7=Output
 OutputPathMedia7=6 - CAD_files
@@ -435,7 +497,7 @@ OutputFileNameMulti7==ProjectPartNumber+'-'+ProjectRevision
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
-OutputFilePath8=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\1 - PCB\
+OutputFilePath8=C:\Users\Alex_M\Develop\USB2JTAG\Output\1 - PCB\
 ReleaseManaged8=1
 OutputBasePath8=Output
 OutputPathMedia8=1 - PCB
@@ -475,7 +537,7 @@ ShowComponentParameters9=1
 GlobalBookmarks9=0
 PDFACompliance9=Disabled
 PDFVersion9=Default
-OutputFilePath10=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\3 - Assembly\
+OutputFilePath10=C:\Users\Alex_M\Develop\USB2JTAG\Output\3 - Assembly\
 ReleaseManaged10=1
 OutputBasePath10=Output
 OutputPathMedia10=3 - Assembly
@@ -488,7 +550,7 @@ OutputFileNameMulti10==ProjectPartNumber+'-'+ProjectRevision+'-PickPlace'
 UseOutputNameForMulti10=0
 OutputFileNameSpecial10=
 OpenOutput10=0
-OutputFilePath11=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\USB2JTAG-001 Manufacturing\
+OutputFilePath11=C:\Users\Alex_M\Develop\USB2JTAG\Output\USB2JTAG-001 Manufacturing\
 ReleaseManaged11=1
 OutputBasePath11=Output
 OutputPathMedia11==ProjectPartNumber+'-'+ProjectRevision+' Manufacturing'
@@ -505,7 +567,7 @@ OpenOutput11=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\5 - Docs&Instructions\USB2JTAG-001-3D.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\2 - BOM\
+RelativeOutputPath3=C:\Users\Alex_M\Develop\USB2JTAG\Output\2 - BOM\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -521,7 +583,7 @@ RelativeOutputPath5=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\5
 OpenOutputs5=0
 RelativeOutputPath6=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\3 - Assembly\USB2JTAG-001-Assembly.PDF
 OpenOutputs6=0
-RelativeOutputPath7=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\6 - CAD_files\
+RelativeOutputPath7=C:\Users\Alex_M\Develop\USB2JTAG\Output\6 - CAD_files\
 OpenOutputs7=0
 AddToProject7=0
 TimestampFolder7=0
@@ -531,7 +593,7 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\1 - PCB\
+RelativeOutputPath8=C:\Users\Alex_M\Develop\USB2JTAG\Output\1 - PCB\
 OpenOutputs8=0
 AddToProject8=0
 TimestampFolder8=0
@@ -543,7 +605,7 @@ OpenIPCOutput8=0
 EnableReload8=0
 RelativeOutputPath9=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\1 - PCB\USB2JTAG-001-PCB.PDF
 OpenOutputs9=0
-RelativeOutputPath10=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\3 - Assembly\
+RelativeOutputPath10=C:\Users\Alex_M\Develop\USB2JTAG\Output\3 - Assembly\
 OpenOutputs10=0
 AddToProject10=0
 TimestampFolder10=0
@@ -553,7 +615,7 @@ OpenGerberOutput10=0
 OpenNCDrillOutput10=0
 OpenIPCOutput10=0
 EnableReload10=0
-RelativeOutputPath11=C:\Users\Alex_M\Develop\altium-ks2-template-project\Output\USB2JTAG-001 Manufacturing\
+RelativeOutputPath11=C:\Users\Alex_M\Develop\USB2JTAG\Output\USB2JTAG-001 Manufacturing\
 OpenOutputs11=0
 AddToProject11=0
 TimestampFolder11=0
