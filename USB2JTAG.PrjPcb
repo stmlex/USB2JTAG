@@ -353,29 +353,33 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Output\Design Rule Check - USB2JTAG.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=ProjectTitle
-Value=USB2JTAG
+Name=CompanyTitle
+Value=KS2Corp
 
 [Parameter2]
-Name=ProjectRevision
-Value=002
-
-[Parameter3]
-Name=ProjectPartNumber
-Value=USB2JTAG
-
-[Parameter4]
-Name=ProjectAuthor
-Value=Alexander Maslyakov
-
-[Parameter5]
 Name=PCB-SurfaceFinish
 Value=HASL
 
+[Parameter3]
+Name=ProjectAuthor
+Value=Alexander Maslyakov
+
+[Parameter4]
+Name=ProjectPartNumber
+Value=USB2JTAG
+
+[Parameter5]
+Name=ProjectRevision
+Value=002
+
 [Parameter6]
-Name=CompanyTitle
-Value=KS2Corp
+Name=ProjectTitle
+Value=USB2JTAG
 
 [Configuration1]
 Name=Sources
@@ -525,7 +529,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Xerox B215 (XRX9C934EB06CD8)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
