@@ -353,10 +353,6 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Output\Design Rule Check - USB2JTAG.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=CompanyTitle
 Value=KS2Corp
@@ -529,7 +525,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Xerox B215 (XRX9C934EB06CD8)
+TargetPrinter=PDFCreator
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
